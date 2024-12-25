@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portefolio de Loïc Sainton, développeur web. Découvrez mes projets, mon parcours et plus encore.">
+    <meta name="author" content="Loïc Sainton">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Portefolio">
+    <meta property="og:description" content="Loïc Sainton, développeur. Découvrez mes projets, mon parcours et plus encore.">
+    <meta property="og:image" content="https://dwarves.iut-fbleau.fr/~sainton/portfolio/assets/img&vid/1000021254.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portefolio">
+    <meta name="twitter:description" content="Loïc Sainton, développeur. Découvrez mes projets, mon parcours et plus encore.">
+    <meta name="twitter:image" content="https://dwarves.iut-fbleau.fr/~sainton/portfolio/assets/img&vid/1000021254.jpg">
+
+    <title>Portefolio de Loïc Sainton</title>
+    <link rel="icon" href="assets/img&vid/icons/programmation-web.png" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/anim.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+
+            <div class="container-img-header">
+                <img class="img-header" src="assets/img&vid/1000021253.jpg" alt="photo Loïc Sainton">
+            </div>
+            <div class="container-text-header">
+                <p class="name-header">Loïc Sainton</p>
+            </div>
+            <div class="social-link">
+                <a href="https://www.linkedin.com/in/loic-sainton-0aab47340/" target="_blank"><img class="img-header-in"
+                        src="assets/img&vid/icons/icon-linkedin.png" alt="linkedIn"> </a>
+                <a href="https://github.com/lolopada" target="_blank"><img class="img-header-git"
+                        src="assets/img&vid/icons/icon-github.png" alt="Github"> </a>
+            </div>
+            <div class="empty"></div>
+        </div>
+    </header>
+    <div class="background-header"></div>
+
+    <main>
+        <nav class="menu-nav">
+            <button id="buttonMoi" onclick="scrollToArticle('toMoi')">A propos de moi</button>
+            <button id="buttonParcours" onclick="scrollToArticle('toParcours')">Mon parcours</button>
+            <button id="buttonProjets" onclick="scrollToArticle('toProjets')">Mes projets</button>
+            <button class="CVDL hidden-button" onclick="window.open('assets/docs/CV_Loic_Sainton.pdf', '_blank')">
+                <img src="assets/img&vid/icons/download-solid.svg" alt=" ">CV
+            </button>
+        </nav>
+
+        <nav class="menu-nav-right">
+            <button class="CVDL" onclick="window.open('assets/docs/CV_Loic_Sainton.pdf', '_blank')">
+                <img src="assets/img&vid/icons/download-solid.svg" alt=" ">CV
+            </button>
+
+        </nav>
+
+
+
+        <div class="division-article">
+            <div id="toMoi"></div>
+            <div id="articleMoi" class="main-page">
+                <div class="text-in-main-page">
+                    <div class="main-title animation-scroll-from-left">
+                        <span>Q</span><span>u</span><span>i</span><span>&nbsp;</span><span>s</span><span>u</span><span>i</span><span>s</span><span>-</span><span>j</span><span>e</span><span></span>&nbsp;<span>?</span>
+                    </div>
+                    <div class="description-title animation-scroll">
+                        Je suis étudiant en BUT Informatique à l'IUT de Fontainebleau. Passionné par la
+                        programmation, le développement et les projets en équipe, je m'investis pleinement dans mes études
+                        pour
+                        continuer à progresser et développer mes compétences.
+                    </div>
+                    <div class="info-supp-title animation-scroll">
+                        <div class="info-item">
+                            <a href="mailto:sainton.loic1@gmail.com">
+                                <img class="icon-set icon-mail" src="assets/img&vid/icons/mail-icon.svg"
+                                    alt="icon-mail">
+                            </a>
+                            <div class="icon-info">sainton.loic1@gmail.com</div>
+                        </div>
+                        <div class="info-item">
+                            <a
+                                href="https://www.google.fr/maps/place/Champagne-sur-Seine/@48.4072118,2.810074,14z/data=!3m1!4b1!4m6!3m5!1s0x47ef5f064d8f8e7b:0x40b82c3688c6110!8m2!3d48.399431!4d2.797807!16s%2Fm%2F02pt3zg?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"><img
+                                    class="icon-set" src="assets/img&vid/icons/location-icon.svg"
+                                    alt="icon-location"></a>
+                            <div class="icon-info">Champagne-sur-seine, 77340</div>
+                        </div>
+                        <div class="info-item">
+                            <img class="icon-set" src="assets/img&vid/icons/car-icon.svg" alt="icon-car">
+                            <div class="icon-info">Permis B</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="toParcours"></div>
+            <div id="articleParcours" class="main-page">
+                <div class="text-in-main-page">
+                    <div class="main-title animation-scroll-from-left">
+                        <span>M</span><span>o</span><span>n</span><span>&nbsp;</span><span>p</span><span>a</span><span>r</span><span>c</span><span>o</span><span>u</span><span>r</span><span>s</span>
+                    </div>
+                    <div class="description-title parcours-info animation-scroll">
+                        <button id="buttonUPEC" class="UPECbutton on">Iut Fontainebleau 2024-2027</button>
+                        <button id="buttonLAFA" class="UPECbutton">Lycée Lafayette 2023-2024</button>
+                        <div id="textUPEC" class="txt-parcours">
+                            <img class="img-parcours" src="assets/img&vid/UPEC_img.jpg" alt="upec img">
+                            <p>
+                                <b>Bachelor Universitaire de Technologie Informatique</b>
+                                <br>
+                                <span style="font-size: 1rem;">À l’Université Université Paris-Est Créteil (UPEC),
+                                    Fontainbleau-Sénart</span>
+                                <br> <br>
+                                <span style="font-size :1.1rem;">Compétences visées :<br> <br>
+                                    - Compétences en logique, mathématiques, pensée analytique <br>
+                                    - Collaboration efficace sur des projets communs <br>
+                                    - Organisation, respect des délais, travail indépendant <br>
+                                    - Pensée créative pour solutions nouvelles et efficaces <br>
+                                    - Adaptation à nouveaux outils, technologies, méthodologies <br>
+                                </span>
+                            </p>
+                        </div>
+                        <div id="textLAFA" class="txt-parcours hidden">
+                            <img class="img-parcours" src="assets/img&vid/lafayette.jpg" alt="upec img">
+                            <div class="sous-txt-parcours">
+                                <p>
+                                    <b>Baccalauréat Générale et Technologique</b>
+                                    <br>
+                                    <span style="font-size: 1rem;">Au Lycée Lafayette, Champagne-sur-seine</span>
+                                    <br> <br> <br>
+                                    <span style="font-size :1.1rem;">
+                                        - Obtention du Baccalauréat, mention bien <br> 
+                                        - Spécialité : Science du Numérique et de l’informatique (NSi)
+                                           <br>et Mathématiques <br> 
+                                        - Option supplémentaire : Maths Expertes
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="toProjets"></div>
+            <div id="articleProjets" class="main-page">
+                <div class="text-in-main-page">
+                    <div class="main-title animation-scroll-from-left">
+                        <span>M</span><span>e</span><span>s</span><span>&nbsp;</span><span>p</span><span>r</span><span>o</span><span>j</span><span>e</span><span>t</span><span>s</span>
+                    </div>
+                    <div class="container animation-scroll">
+                        <input type="radio" name="carousel" id="c1" checked>
+                        <label class="card" for="c1">
+                            <div class="row">
+                                <div class="icon">1</div>
+                                <div class="description">
+                                    <p><span style="font-size: 1.5rem;">Le Blocus </span><br>
+                                    Jeu tour par tour</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="carousel" id="c2">
+                        <label class="card" for="c2">
+                            <div class="row">
+                                <div class="icon">2</div>
+                                <div class="description">
+                                    <p><span style="color:#D0E1F9;"><span style="font-size: 1.5rem;">Mon portfolio </span><br>
+                                    Site web</p></span>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="carousel" id="c3">
+                        <label class="card" for="c3">
+                            <div class="row">
+                                <div class="icon">3</div>
+                                <div class="description">
+                                    <p><span style="color:#1E1F26;"><span style="font-size: 1.5rem;">Electrikite </span><br>
+                                    Site web d'une pseudo entreprise (en cours)</p></span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 Loïc Sainton. Tous droits réservés.</p>
+        </footer>
+    </main>
+
+    <script src="assets/js/apparition.js"></script>
+    <script src="assets/js/paused.js"></script>
+    <script src="assets/js/navScroll.js"></script>
+    <script src="assets/js/background.js"></script>
+    <script src="assets/js/buttonParcours.js"></script>
+</body>
+
+</html>

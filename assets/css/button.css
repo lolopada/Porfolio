@@ -1,0 +1,32 @@
+button {
+    font-weight: bold; /* Définit le poids de la police à gras */
+    font-size: 1rem;
+    letter-spacing: 0.1em; /* Définit l'espacement entre les lettres */
+    border: none; /* Supprime la bordure par défaut du bouton */
+    border-radius: 1.1em; 
+    background-color: #1e1f268e;
+    cursor: pointer; 
+    color: #D0E1F9; 
+    padding: 1em 2em;
+    margin-right: 0.7em;
+}
+
+button:hover {
+    background-color: #1e1f26; /* Change la couleur de fond du bouton au survol */
+    color: #D0E1F9; /* Change la couleur du texte du bouton au survol */
+    transition: background-color 0.5s, color 0.5s; /* Ajoute une transition fluide de 0.5 seconde */
+}
+
+button:active {
+    animation: color 1s forwards; /* Applique l'animation de couleur au texte du bouton */
+}
+
+@keyframes color {
+    0%,100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+

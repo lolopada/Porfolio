@@ -1,0 +1,56 @@
+@media (max-width: 1000px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        position: relative;
+        height: 100%;
+        width: auto;
+        margin-bottom: 40%;
+    }
+
+    .menu-nav {
+        position: relative;
+        margin-top: 0;
+        padding: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .menu-nav-right {
+        display: none;
+    }
+
+
+    .division-article{
+        margin-top: 3rem;
+    }
+
+    #toMoi, #toParcours{
+        padding-top: 0rem;
+    }
+    #articleMoi, #articleParcours{
+        margin-bottom: 8rem;
+    }
+
+    .txt-parcours {
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .txt-parcours p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1001px) {
+    .hidden-button {
+        display: none;
+    }
+}
